@@ -1,0 +1,46 @@
+body {
+    text-align: center;
+
+}
+
+h1 {
+    font-size: 40px;
+    font-family: cursive;
+    font-weight: 300;
+}
+
+#app {
+    width: 100%;
+    height: 800px;
+    background: linear-gradient(#ffd700 0%, #da9100 100%);
+    ;
+}
+
+#game {
+    width: 100%;
+    height: 800px;
+    background-color: linear-gradient(#2a52be 0%, #191970 100%);
+    ;
+}
+
+#Chatbot {
+    width: 100%;
+    height: 800px;
+    background-color: linear-gradient(#e6e6fa 0%, #6f00ff 100%);
+    ;
+}
+
+img {
+    transition: transform .2s;
+}
+
+img:hover {
+    transform: scale(0.9);
+}
+
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
